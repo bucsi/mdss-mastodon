@@ -1,8 +1,9 @@
 # MDSS - Mastodon theme
 
-<div style="border-radius: 5px; border: 2px solid red">
+<hr>
+
 Modifications from original MDSS:
-  
+
 - customizations
 - some deeper changes (header centering and no-caps, for example)
 - build directory not omitted
@@ -13,7 +14,7 @@ to use:
 3. make changes
 4. `npm run build`
 5. upload `build/mdss.min.css`
-</div>
+<hr>
 
 
 [![NPM version 2.1.0](https://img.shields.io/badge/npm-2.1.0-blue.svg)](https://www.npmjs.com/package/mdss)
