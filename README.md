@@ -1,4 +1,17 @@
-# MDSS 
+# MDSS - Mastodon theme
+
+> Modifications from original MDSS:
+> - customizations
+> - some deeper changes (header centering and no-caps, for example)
+> - build directory not omitted
+>  a
+> to use:
+> 1. `git clone` to your computer
+> 2. `npm install` in the folder
+> 3. make changes
+> 4. `npm run build`
+> 5. upload `build/mdss.min.css`
+
 
 [![NPM version 2.1.0](https://img.shields.io/badge/npm-2.1.0-blue.svg)](https://www.npmjs.com/package/mdss)
 [![JavaScript Standard Style](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)

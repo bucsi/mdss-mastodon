@@ -1,0 +1,469 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto&family=Roboto+Slab&display=swap");
+body {
+  box-sizing: border-box;
+  margin: 0;
+  overflow-y: visible;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  position: relative;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+ol ol, ol ul, ul ol, ul ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ol li, ul li {
+  margin: 0;
+}
+
+ol p, ul p {
+  display: inline;
+}
+
+blockquote {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+blockquote p {
+  display: inline;
+}
+
+pre {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+pre code {
+  background: none;
+  border: none;
+  display: block;
+  padding: 0;
+}
+
+hr {
+  background: #9baec8;
+  border: none;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+code {
+  overflow-wrap: break-word;
+}
+
+img {
+  vertical-align: middle;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+i, em {
+  font-style: italic;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table thead {
+  color: #3c99dc;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+table tr:nth-child(even) {
+  background: #eff2f5;
+}
+
+table td, table th {
+  text-align: left;
+}
+
+dt {
+  display: block;
+  font-weight: bold;
+}
+
+dd {
+  display: block;
+}
+
+s, del {
+  text-decoration: line-through;
+}
+
+.aligned {
+  overflow: hidden;
+}
+
+.left.aligned,
+.left.aligned p {
+  text-align: left;
+}
+
+.right.aligned,
+.right.aligned p {
+  text-align: right;
+}
+
+.center.aligned,
+.center.aligned p {
+  text-align: center;
+}
+
+.left.floated {
+  float: left;
+}
+
+.right.floated {
+  float: right;
+}
+
+.flex, .columns {
+  align-items: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex .evenly.aligned {
+  justify-content: space-evenly;
+}
+
+.columns > * {
+  box-sizing: border-box;
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+
+.card {
+  overflow: hidden;
+}
+
+.card :first-child {
+  margin-top: 0;
+}
+
+.card :last-child {
+  margin-bottom: 0;
+}
+
+.sticky {
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+}
+
+pre code .hljs-comment {
+  color: #a16345;
+}
+
+pre code .hljs-keyword, pre code .hljs-built_in {
+  color: #228ec3;
+}
+
+pre code .hljs-literal {
+  color: #228ec3;
+}
+
+pre code .hljs-string {
+  color: #8245a1;
+}
+
+pre code .hljs-subst {
+  color: #ac3973;
+}
+
+pre code .hljs-number {
+  color: #8245a1;
+}
+
+pre code .hljs-regexp {
+  color: #ac3973;
+}
+
+pre code .hljs-title {
+  color: #2eb873;
+}
+
+pre code .hljs-tag, pre code .hljs-name {
+  color: #228ec3;
+}
+
+pre code .hljs-attr {
+  color: #2eb873;
+}
+
+body {
+  background: #1f232b;
+  color: #9baec8;
+  font-family: "Roboto", "Arial Narrow", "HelveticaNeue", sans-serif;
+  font-size: 17px;
+  line-height: 1.67;
+  padding: 8.5px calc(50% - 455px + 17px);
+  min-width: 350px;
+}
+
+@media (max-width: 995px) {
+  body {
+    padding: 8.5px 17px;
+  }
+}
+
+body > * {
+  max-width: 910px;
+}
+
+h1 {
+  font-family: "Montserrat", "Roboto", "Arial Narrow", "HelveticaNeue", sans-serif;
+  color: #3c99dc;
+  font-size: 28.9px;
+  font-weight: 500;
+  margin-bottom: 25.5px;
+  margin-top: 25.5px;
+}
+
+h2 {
+  font-family: "Montserrat", "Roboto", "Arial Narrow", "HelveticaNeue", sans-serif;
+  color: #4ea2df;
+  font-size: 22.1px;
+  font-weight: 500;
+  margin-bottom: 20.4px;
+  margin-top: 20.4px;
+}
+
+h3 {
+  font-family: "Montserrat", "Roboto", "Arial Narrow", "HelveticaNeue", sans-serif;
+  font-size: 20.4px;
+  font-weight: 500;
+  margin-bottom: 8.5px;
+  margin-top: 8.5px;
+}
+
+h4 {
+  font-family: "Montserrat", "Roboto", "Arial Narrow", "HelveticaNeue", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 3.4px;
+  margin-top: 3.4px;
+}
+
+h5 {
+  font-family: "Montserrat", "Roboto", "Arial Narrow", "HelveticaNeue", sans-serif;
+}
+
+h6 {
+  font-family: "Montserrat", "Roboto", "Arial Narrow", "HelveticaNeue", sans-serif;
+}
+
+p {
+  margin-bottom: 8.5px;
+  margin-top: 8.5px;
+  text-align: left;
+}
+
+ul {
+  list-style: square;
+  margin-bottom: 8.5px;
+  margin-top: 8.5px;
+}
+
+ol {
+  list-style: decimal;
+  margin-bottom: 8.5px;
+  margin-top: 8.5px;
+}
+
+blockquote {
+  font-family: "Roboto Slab", "Times New Roman", "Times", serif;
+  font-size: 18.7px;
+  color: #3c99dc;
+  font-style: italic;
+  border: solid transparent 1px;
+  border-radius: 3px;
+  line-height: 1.67;
+  margin-bottom: 8.5px;
+  margin-top: 8.5px;
+  padding: 8.5px 34px;
+}
+
+pre {
+  font-family: "Ubuntu Mono", "Consolas", "Monaco", monospace;
+  font-size: 14.45px;
+  background: #eff2f5;
+  border: solid transparent 1px;
+  border-radius: 3px;
+  line-height: 1.5;
+  margin-bottom: 8.5px;
+  margin-top: 8.5px;
+  padding: 17px;
+}
+
+hr {
+  margin-bottom: 17px;
+  margin-top: 17px;
+}
+
+a {
+  color: #3c99dc;
+}
+
+code {
+  font-family: "Ubuntu Mono", "Consolas", "Monaco", monospace;
+  font-size: 14.45px;
+  background: #eff2f5;
+  border-radius: 3px;
+  padding: 4.25px;
+}
+
+table {
+  margin: 8.5px auto;
+}
+
+table thead {
+  font-family: "Montserrat", "Roboto", "Arial Narrow", "HelveticaNeue", sans-serif;
+  font-weight: 500;
+  border-bottom: solid #3c99dc 1px;
+}
+
+table th, table td {
+  font-weight: inherit;
+  padding: 4.25px 8.5px;
+}
+
+dd {
+  margin-left: 34px;
+}
+
+.left.floated {
+  margin-right: 8.5px;
+}
+
+.right.floated {
+  margin-left: 8.5px;
+}
+
+@media (min-width: 550px) and (max-width: 659px) {
+  .two.columns > * {
+    width: calc(50% - 8.5px);
+  }
+  .three.columns > * {
+    width: calc(50% - 8.5px);
+  }
+  .four.columns > * {
+    width: calc(50% - 8.5px);
+  }
+}
+
+@media (min-width: 660px) {
+  .two.columns > * {
+    width: calc(50% - 8.5px);
+  }
+  .three.columns > * {
+    width: calc(33.33333% - 11.33333px);
+  }
+  .four.columns > * {
+    width: calc(25% - 12.75px);
+  }
+}
+
+.card {
+  border: solid transparent 1px;
+  border-radius: 3px;
+  break-inside: avoid;
+  margin-bottom: 8.5px;
+  margin-top: 8.5px;
+  padding: 8.5px 17px;
+  page-break-inside: avoid;
+}
+
+.card.outline {
+  border-color: #9baec8;
+  color: #9baec8;
+}
+
+.primary.outline.card {
+  border-color: #3c99dc;
+}
+
+.primary.card:not(.outline) {
+  background: #3c99dc;
+  color: black;
+}
+
+.accent.outline.card {
+  border-color: #4ea2df;
+}
+
+.accent.card:not(.outline) {
+  background: #4ea2df;
+  color: black;
+}
+
+.gray.outline.card {
+  border-color: #9baec8;
+}
+
+.gray.card:not(.outline) {
+  background: #9baec8;
+  color: black;
+}
+
+.sticky {
+  background: #1f232b;
+  padding: 8.5px 0;
+}
+
+.hljs {
+  padding: 17px;
+}
+
+body ::selection {
+  background: rgba(78, 162, 223, 0.25);
+}
+
+pre {
+  overflow-x: auto;
+  white-space: pre;
+}
+
+p a {
+  border-bottom: solid transparent 1px;
+  padding-bottom: 2px;
+  transition: border-bottom-color 250ms;
+}
+
+p a:hover {
+  border-bottom-color: #3c99dc;
+}
+
+hr {
+  height: 0;
+  margin: 0;
+  padding: 0;
+  visibility: hidden;
+}
+
+table th, table td {
+  padding: 8.5px 17px;
+}
+
+/*# sourceMappingURL=mdss-screen.css.map */

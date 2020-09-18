@@ -1,9 +1,11 @@
+// imports idk if this works
+
 // Root typgraphy
 $root-font            : $font-sans-serif;
-$root-font-size       : 17px;
-$root-font-color      : $color-gray-dark;
-$root-background      : $color-white;
-$root-line-height     : 1.67;
+$root-font-size       : 16px;
+$root-font-color      : $color-gray-medium;
+$root-background      : $color-gray-dark;
+$root-line-height     : 30px;
 
 // Spacing
 $spacing-small        : rem(0.25);
@@ -18,9 +20,9 @@ $root-max-width       : 910px;
 $root-min-width       : 350px;
 
 // Headings
-$heading-font         : $font-sans-serif;
+$heading-font         : 'Montserrat', $font-sans-serif;
 $heading-font-size    : (rem(1.7), rem(1.3), rem(1.2), rem(1));
-$heading-font-color   : ($color-primary, $color-accent, $root-font-color, $root-font-color);
+$heading-font-color   : ($color-gray-light, $color-gray-light, $color-gray-light, $color-gray-light);
 $heading-font-weight  : (500, 500, 500, 500);
 $heading-margin       : (rem(1.5), rem(1.2), rem(0.5), rem(0.2));
 
@@ -65,4 +67,4 @@ $breakpoint-large     : 660px;
 
 // Borders
 $border-width         : 1px;
-$border-radius        : 3px;
+$border-radius        : 4px;

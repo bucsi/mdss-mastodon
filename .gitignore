@@ -1,6 +1,6 @@
 # dependencies
 node_modules
 # output files
-build
 # editor config
 .vscode
+debug.log
