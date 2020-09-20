@@ -16,5 +16,5 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
-          source: build/mdss.min.css
-          target: ${{ secrets.TARGET }}
+          local: build/mdss.min.css
+          remote: ${{ secrets.TARGET }}
