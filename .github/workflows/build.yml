@@ -1,4 +1,4 @@
-name: CI
+name: Build and deploy
 on: 
   workflow_dispatch:
 jobs:
@@ -6,6 +6,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: npm install
       - name: Build
         run: npm run build
       - name: Upload
