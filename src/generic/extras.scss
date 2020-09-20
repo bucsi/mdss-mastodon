@@ -147,7 +147,7 @@
 
       &.outline {
         border-color: $root-font-color;
-        color: $root-font-color;
+        color: $root-background;
       }
     }
 
@@ -159,7 +159,7 @@
       .#{$name}.card:not(.outline) {
         @include background($color);
 
-        @if lightness($color) > 50 { // light background
+        /*@if lightness($color) > 50 { // light background
           @if lightness($root-font-color) > 50 {
             color: $color-black;
           } @else {
@@ -171,7 +171,8 @@
           } @else {
             color: $color-white;
           }
-        }
+        }*/
+        color: $root-background;
       }
     }
   }
