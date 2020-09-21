@@ -1,8 +1,5 @@
-name: Build and deploy
+name: Build and deploy (manually)
 on:
-  push:
-    branches: 
-      - main
   workflow_dispatch:
 jobs:
   build:
