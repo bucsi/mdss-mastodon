@@ -2,9 +2,15 @@
 // You can use any variable declared in the other configuration files
 @mixin custom-generic {
   // Styles here will be applied to both screen and print
+  
   table tr:nth-child(even) {
     background:#9baec8;
     color: #1f232b;
+  }
+
+  h1, h2 {
+    text-transform: none;
+    text-align: center;
   }
 }
 
