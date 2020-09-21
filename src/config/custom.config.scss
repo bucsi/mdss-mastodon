@@ -2,7 +2,10 @@
 // You can use any variable declared in the other configuration files
 @mixin custom-generic {
   // Styles here will be applied to both screen and print
-  
+  table tr:nth-child(even) {
+    background: $color-gray-light;
+    color: $color-gray-dark;
+  }
 }
 
 @mixin custom-screen {
