@@ -3,8 +3,8 @@
 @mixin custom-generic {
   // Styles here will be applied to both screen and print
   table tr:nth-child(even) {
-    background: $color-gray-light;
-    color: $color-gray-dark;
+    background:#9baec8;
+    color: #1f232b;
   }
 }
 
